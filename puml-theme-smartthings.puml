@@ -33,15 +33,15 @@
 !$DANGER = "#e51c23"
 
 !function $ok($msg) 
-!return "<font color=" + $SUCCESS + "><b><&circle-check>HTTP 200</b></font> " + $msg
+!return "<font color=" + $SUCCESS + "><&circle-check> HTTP 200</font> " + $msg
 !endfunction
 
 !function $error($msg) 
-!return "<font color=" + $DANGER + "><b><&circle-x>HTTP 5xx</b></font> " + $msg
+!return "<font color=" + $DANGER + "><&circle-x> HTTP 5xx</font> " + $msg
 !endfunction
 
 !function $unauthorized($msg) 
-!return "<font color=" + $WARNING + "><b><&lock-locked>HTTP 401</b></font> " + $msg
+!return "<font color=" + $WARNING + "><&lock-locked> HTTP 401</font> " + $msg
 !endfunction
 
 !function $success($msg)
