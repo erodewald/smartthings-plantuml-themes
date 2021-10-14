@@ -32,16 +32,16 @@
 !$WARNING = "#ff9800"
 !$DANGER = "#e51c23"
 
-!function $ok($msg) 
-!return "<font color=" + $SUCCESS + "><&circle-check> HTTP 200</font> " + $msg
+!function $2xx($msg) 
+!return "<font color=" + $SUCCESS + "><&circle-check> " + $msg + "</font>"
 !endfunction
 
-!function $error($msg) 
-!return "<font color=" + $DANGER + "><&circle-x> HTTP 5xx</font> " + $msg
+!function $4xx($msg) 
+!return "<font color=" + $WARNING + "><&lock-locked>  " + $msg + "</font>"
 !endfunction
 
-!function $unauthorized($msg) 
-!return "<font color=" + $WARNING + "><&lock-locked> HTTP 401</font> " + $msg
+!function $5xx($msg) 
+!return "<font color=" + $DANGER + "><&circle-x> " + $msg + "</font>"
 !endfunction
 
 !function $success($msg)
