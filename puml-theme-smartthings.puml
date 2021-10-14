@@ -33,15 +33,15 @@
 !$DANGER = "#e51c23"
 
 !function $2xx($msg) 
-!return "<font color=" + $SUCCESS + "><&circle-check> " + $msg + "</font>"
+!return "<font color=" + $SUCCESS + "><&circle-check>" + $msg + "</font>"
 !endfunction
 
 !function $4xx($msg) 
-!return "<font color=" + $WARNING + "><&lock-locked>  " + $msg + "</font>"
+!return "<font color=" + $WARNING + "><&lock-locked>" + $msg + "</font>"
 !endfunction
 
 !function $5xx($msg) 
-!return "<font color=" + $DANGER + "><&circle-x> " + $msg + "</font>"
+!return "<font color=" + $DANGER + "><&circle-x>" + $msg + "</font>"
 !endfunction
 
 !function $success($msg)
