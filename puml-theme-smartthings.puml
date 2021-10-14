@@ -32,7 +32,7 @@
 !$WARNING = "#ff9800"
 !$DANGER = "#e51c23"
 
-!function $2xx($msg) 
+!function $twoxx($msg) 
 !return "<font color=" + $SUCCESS + "><&circle-check>" + $msg + "</font>"
 !endfunction
 
